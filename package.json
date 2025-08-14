@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "build:css": "npx tailwindcss -i ./src/css/styles.css -o ./dist/styles.css --minify"
-},
+    "build:css": "npx tailwindcss -i ./src/css/styles.css -o ./dist/styles.css --minify"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector"
   }
 }
